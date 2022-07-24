@@ -6,7 +6,7 @@ New York is one of the most important markets for Airbnb, with the number of ava
 
 By “learning” the “well-priced” listing data in machine, I am aiming to predict optimal prices dynamically and provide suggestions to hosts for their new listings.
 
-## Datasets:
+## Datasets
 
 We obtain the data source from Inside Airbnb , the original dataset includes 37, 631 listings with 74 features summarized below:
 - Location related:  longitude, latitude, neighbourhood
@@ -35,7 +35,7 @@ We obtain the data source from Inside Airbnb , the original dataset includes 37,
 
 Metrics: R-squared
 
-## Results:
+## Results
 
 The stacking model achieved a R-squared of 0.68 and 0.67 on the train and test dataset, respectively.
 
