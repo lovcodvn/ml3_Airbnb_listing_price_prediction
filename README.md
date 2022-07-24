@@ -20,7 +20,7 @@ We obtain the data source from Inside Airbnb , the original dataset includes 37,
 - Using external coordinate data to calculate the distance (haversine distance) from subway stations, shopping centres, and 10 popular tourist destinations (such as The Empire State Building, Statue of Liberty…) based on listings' coordinates found in the original Airbnb dataset. 
 - Listing description was processed into numerical values such as word counts to explore any correlation between how the listings are described and the price they can command. 
 - Features that are generally perceived to be important - bathrooms, and host response/acceptance rates – and that were stored as text variations were transformed to float. 
-- We made the decision to convert listings’ coordinates to actual distances from amenities to ensure the model results are easily explainable, as it is much easier to understand listing location advantages if pecked to specific landmarks, at the expense of more granularity provided by the coordinates. 
+- I made the decision to convert listings’ coordinates to actual distances from amenities to ensure the model results are easily explainable, as it is much easier to understand listing location advantages if pecked to specific landmarks, at the expense of more granularity provided by the coordinates. 
 - Removing the redundant or repeated columns (total 39 columns) and numeric features that were found to have a high correlation.
 
 ## Models
