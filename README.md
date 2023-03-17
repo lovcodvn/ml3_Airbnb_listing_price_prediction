@@ -41,7 +41,7 @@ The stacking model achieved a R-squared of 0.68 and 0.67 on the train and test d
 
 ## Future Works
 
-- One suggestion to improve the R-squared score is to incorporate the latitude and longitude as features. The currently-used approach prioritized interpretability hence the latitude and longitude data were transformed into distance information between listings and areas of interest such as subways and attractions. 
+- My suggestion to improve the R-squared score is to incorporate the latitude and longitude as features. The currently-used approach prioritized interpretability hence the latitude and longitude data were transformed into distance information between listings and areas of interest such as subways and attractions. 
 - The dataset used for this project only covers a snapshot in time, and therefore the predicted price is only applicable for the same period. An extension of this project is to consider using a dataset with time-based pricing data to account for the fluctuation of prices over time. This can improve the application of the model to cover other time periods in the year as it can consider seasonal trends. 
 - The model can be expanded to consider other cities or areas. The original dataset is only for New York City, and Airbnb is present in over 100,000 cities. With more cities, an extension would be to understand if feature importance varies per city or location. 
 
